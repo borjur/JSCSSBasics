@@ -1,0 +1,26 @@
+	body { color:green;
+		   background-color:cyan;
+		   font-family:Verdana;
+		   background-image: url('cascades.jpg');
+		   background-repeat: repeat-x }
+	
+	h1 { color:white;}
+	h2 {color:blue;}
+	ul.circle {list-style-type: circle}
+	li {font-size:16pt;}
+	table {border: outset 2pt; 
+           border-spacing: 5pt;
+    }
+    td {border : inset 2pt;}
+    a:link {color: orange}
+	a:visited {color: yellow}
+	a:active {color:red}
+	a:hover {color:blue}         
+    #linkBox {
+    	padding:10px;
+		text-align:center;
+		font-size:14pt;
+		font-weight:bold;
+		border:1px solid darkblue;
+		color: red;
+	}

@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Intro to JavaScript</title>
+<!-- script language="javascript">
+	function showData()
+	{
+	    /* msg.innerHTML="Hello " + document.userForm.user.value; */	
+		alert ("You have entered the name " 
+		+ document.userForm.user.value);
+		
+	}
+</script -->
+<script type="text/javascript" src="myScripts.js"> </script>
+</head>
+<body>
+<form name="userForm">
+Enter Name <input type="text" name="user" onblur="showData()"><br />
+<!--  input type="submit" onclick="showData()" -->
+</form>
+<div id="msg"> </div>
+</body>
+</html>
